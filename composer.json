@@ -1,0 +1,14 @@
+{
+    "name" : "ghastly/theme-installer",
+    "type" : "composer-plugin",
+    "license" : "UNLICENSE",
+    "autoload" : {
+        "psr-0" : {"Ghastly" : "src/"}
+    },
+    "extra" : {
+        "class" : "Ghastly\\Composer\\ThemeInstallerPlugin"
+    },
+    "require" : {
+        "composer-plugin-api" : "*"
+    }
+}
